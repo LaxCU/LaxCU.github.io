@@ -1,42 +1,47 @@
 body {
-	background: #121212;
-	width: 100%;
-  	height: 100%;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 500;
-	overflow: hidden;
+  background: #121212;
+  width: 100%;
+  height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  overflow: hidden;
+  background-image: url("pika_look2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.dark-mode{
-	background-color: #121212;
+.dark-mode {
+  background-color: #121212;
 }
 
-name{
-	color: #BB86FC;
-	font-size: 3vw;
-	font-family:'Raleway', sans-serif;
-	
+name {
+  /* color: #bb86fc; */
+  color: black;
+  font-size: 3vw;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
 .center {
-    position:absolute;
-    top:50%;
-    left:50%;
-    -ms-transform:      translate(-50%,-50%); /* IE 9 */
-    -webkit-transform:  translate(-50%,-50%); /* Safari */
-    transform:          translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* Safari */
+  transform: translate(-50%, -50%);
 }
-#title-links{
-	font-size: 2vw;
-	text-align:center;
-	line-height: 1.5;
+#title-links {
+  font-size: 2vw;
+  text-align: center;
+  line-height: 1.5;
 }
-a{
-	cursor:pointer;
-	color: #BB86FC;
-	text-decoration:none;
+a {
+  cursor: pointer;
+  color: #de5bff;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 a:hover {
-	text-decoration:underline;
+  text-decoration: underline;
 }
 
 /* .resume{
